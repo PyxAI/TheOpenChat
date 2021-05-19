@@ -2,4 +2,4 @@ language: java
 arch: amd64
 
 jdk: 
-  - oraclejdk15
+  - oraclejdk8
