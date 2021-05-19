@@ -1,5 +1,4 @@
 language: java
-arch: amd64
-
+install: ant deps
 jdk: 
   - oraclejdk8
