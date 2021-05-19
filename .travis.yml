@@ -7,7 +7,7 @@ matrix:
 script: "$JOB"
 deploy:
   provider: releases
-  api_key: "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 "
+  api_key: " "
   file: "FILE TO UPLOAD"
   skip_cleanup: true
   on:
