@@ -3,5 +3,3 @@ arch: amd64
 
 jdk: 
   - oraclejdk8
-install: true
-script: ./mvnw clean install
