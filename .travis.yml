@@ -5,3 +5,10 @@ matrix:
   - JOB="./gradlew build"
 
 script: "$JOB"
+deploy:
+  provider: releases
+  api_key: "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 "
+  file: "FILE TO UPLOAD"
+  skip_cleanup: true
+  on:
+    tags: true
